@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonRpcNet.WebSocketSharp", "JsonRpcNet.WebSocketSharp\JsonRpcNet.WebSocketSharp.csproj", "{F7D581B0-D443-4308-A6A2-D6142A97B91C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonRpcNet.WebSocketSharp.Sample", "JsonRpcNet.WebSocketSharp.Sample\JsonRpcNet.WebSocketSharp.Sample.csproj", "{16800A1E-8851-4FB2-9877-95FDFA968091}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7D581B0-D443-4308-A6A2-D6142A97B91C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7D581B0-D443-4308-A6A2-D6142A97B91C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7D581B0-D443-4308-A6A2-D6142A97B91C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7D581B0-D443-4308-A6A2-D6142A97B91C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16800A1E-8851-4FB2-9877-95FDFA968091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16800A1E-8851-4FB2-9877-95FDFA968091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16800A1E-8851-4FB2-9877-95FDFA968091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16800A1E-8851-4FB2-9877-95FDFA968091}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net472</TargetFramework>
+        <Version>0.1.11</Version>
+        <Title>JsonRpcNet.WebSocketSharp</Title>
+        <Description>Library for adding JsonRpc support to WebSocketSharp</Description>
+        <PackageProjectUrl>https://github.com/JsonRpcNet</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/JsonRpcNet/JsonRpcNet.WebSocketSharp/blob/master/LICENSE</PackageLicenseUrl>
+        <PackageIconUrl>https://avatars1.githubusercontent.com/u/58533111</PackageIconUrl>
+        <RepositoryUrl>https://github.com/JsonRpcNet/JsonRpcNet.WebSocketSharp</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>WebSocket JsonRpc RPC WebSocketSharp</PackageTags>
+        <PackageReleaseNotes>Initial package</PackageReleaseNotes>
+        <AssemblyVersion>0.1.11</AssemblyVersion>
+        <FileVersion>0.1.11</FileVersion>
+        <NeutralLanguage>en-US</NeutralLanguage>
+        <Authors>Fabricio Bastian, Jonas Gottschau</Authors>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="JsonRpcNet.Core" Version="0.1.11" />
+      <PackageReference Include="System.ValueTuple" Version="4.5.0" />
+      <PackageReference Include="WebSocketSharp" Version="1.0.3-rc11" />
+    </ItemGroup>
+
+</Project>
